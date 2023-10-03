@@ -35,4 +35,4 @@ if(sala <= 2000)
     }
 }
 
-alert("Usuario con nombre completo: " + nom + " " + ape + "\nCuya edad es: " + edad + "\nSu salario final es: " + sala );
+alert("Usuario con nombre completo: " + nom + " " + ape + "\nCuya edad es: " + edad + "\nSu salario final es: " + sala.toFixed(2) );
